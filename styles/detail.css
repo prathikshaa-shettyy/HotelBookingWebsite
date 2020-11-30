@@ -1,0 +1,14 @@
+.detaildiv{
+    height: 100vh;
+    width: 100vw;
+}
+
+#detailimg{
+    height: 500px;
+    width: 500px;
+}
+
+.socialmediaimg{
+    height:20px ;
+    width: 22px;
+}
