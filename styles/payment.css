@@ -3,6 +3,28 @@
     width: 100vw;
 }
 
+.headfoot{
+    background-color: rosybrown;
+}
+
+#hotelcontent{
+    background-color:  rgb(132,136,139);
+    width:50%;
+    height:20%;
+    margin:0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#customerinfo{
+    margin: 2%;
+}
+
+#addborder{
+    border: 1px solid black;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
 .socialmediaimg{
     height:20px ;
     width: 22px;

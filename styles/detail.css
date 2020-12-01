@@ -2,10 +2,22 @@
     height: 100vh;
     width: 100vw;
 }
+.headfoot{
+    background-color: rosybrown;
+}
 
 #detailimg{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0%;
+}
+
+#form{
+    margin: 0% 4% 1%;
+}
+
+#description{
+    margin: 1% 4% 2%;
 }
 
 .socialmediaimg{

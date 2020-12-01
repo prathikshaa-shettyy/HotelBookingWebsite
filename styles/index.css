@@ -1,11 +1,27 @@
 .indexdiv{
     height: 100vh;
     width: 100vw;
+
+}
+.headfoot{
+    background-color: rosybrown;
+}
+
+#searchbar{
+
+    background-image:url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 380px; 
 }
 
 .indeximg{
     height: 150px;
     width: 150px;
+    padding: 1%;
+    position: relative;
+    padding-right: 2%;
+    border-radius: 25%;
 }
 .socialmediaimg{
     height:20px ;
