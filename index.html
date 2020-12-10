@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles\index.css">
-
 </head>
-<body style="margin: 0%;background-color: #e0e0e0;">
+
+<body>
     <div class="indexdiv">
         <!--HEADER DIV-->
-        <header class="headfoot">
-            <img src="assests\images\logo.png"" alt="logo" style="height: 60px;width:60px;"/>
-                <a href="login.html" target="_self">Login</a> 
+        <header class="header">
+            <img src="assests\images\logo.png"" alt="logo" id="logo"/>
+            <a href="login.html" id="log-in">Login</a> 
         </header>
 
         <!--CONTENT DIV-->
         <div>
             <div id="searchbar">
-                <form>
-                    <input type="text" name="city" id="city" placeholder="City"/>
+                <form id="form">
+                    <input type="text" name="city" id="city-search" placeholder="City"/>
                 </form>
             </div>
             <div>
@@ -29,13 +31,17 @@
                 <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"/>
                 <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"/>
                 <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" style="margin-right: 12%;"/>
-                <article><a href="index.html">View more >></a> </article>
+                <div style="text-align: center;padding-top:20px;padding-bottom:20px;">
+                    <a href="index.html" id="view-more">View more >></a>
+                </div>
+                
             </div>
         </div>
 
+
         <!--FOOTER DIV-->
-        <footer class="headfoot">
-            <a href="contact.html" target="_self">Contact Us</a>
+        <footer class="footer">
+            <a href="contact.html" id="contact">Contact Us</a>
             <br />
             <a href="https://www.facebook.com">
                 <img class="socialmediaimg" src="assests\images\facebook.png">
@@ -46,9 +52,11 @@
             <a href="https://twitter.com">
                 <img class="socialmediaimg" src="assests\images\twitter.png"/>
             </a>
-            <div>© 2020 ROOM SEARCH PVT LTD</div>
+            <div id="copyright">© 2020 ROOM SEARCH PVT LTD</div>
         </footer>
 
     </div>
+
 </body>
+
 </html>

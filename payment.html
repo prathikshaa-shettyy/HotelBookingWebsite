@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles\payment.css">
 </head>
 <body style="margin: 0%;background-color: #e0e0e0;">
     <div class="paymentdiv">
         <!--HEADER DIV-->
-        <header class="headfoot">
-            <br />
-            <a href="index.html" target="_self" ><img src="assests\images\logo.png"" alt="logo" style="height: 60px;width:60px;"/></a>
-            <a href="login.html">Login</a>
+        <header class="header">
+            <a href="index.html" target="_self"><img src="assests\images\logo.png"" alt="logo" id="logo"/></a>
+            <a href="login.html" id="log-in">Login</a> 
         </header>
 
         <!--CONTENT DIV-->
@@ -33,13 +33,15 @@
                     <p><strong>Total Amount:</strong> Rs 10000</p>
                 </div>
             </div>
-
-            <a href="payment.html">Pay Now</a>
+            <div style="padding-bottom: 30px;">
+                <a href="payment.html" style="text-decoration: none;color:black;">Pay Now</a>
+            </div>
+            
         </div>
 
         <!--FOOTER DIV-->
-        <footer class="headfoot">
-            <a href="contact.html">Contact Us</a>
+        <footer class="footer">
+            <a href="contact.html" id="contact">Contact Us</a>
             <br />
             <a href="https://www.facebook.com">
                 <img class="socialmediaimg" src="assests\images\facebook.png">
@@ -50,7 +52,7 @@
             <a href="https://twitter.com">
                 <img class="socialmediaimg" src="assests\images\twitter.png"/>
             </a>
-            <div>© 2020 ROOM SEARCH PVT LTD</div>
+            <div id="copyright">© 2020 ROOM SEARCH PVT LTD</div>
         </footer>
 
     </div>

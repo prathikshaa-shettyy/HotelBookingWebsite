@@ -1,9 +1,40 @@
+body{
+    margin: 0%;
+    background-color: #e0e0e0;
+    font-family:Ubuntu sans-serif ;
+}
+
+#logo{
+    height: 60px;
+    width:60px;
+    vertical-align: middle;
+}
+
+#log-in{
+    position: relative;
+    left: 1220px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+
+}
+
 .listdiv{
     height: 100vh;
     width: 100vw;
+
 }
-.headfoot{
-    background-color: rosybrown;
+
+.list-img-div{
+    background-color: rgb(132,136,139); 
+    width:40%;
+    
+  
+}
+
+#list-content{
+    text-decoration: none;
+    color:black;
 }
 .listimg{
     height: 250px;
@@ -11,8 +42,43 @@
 
 }
 
+.header{
+    background-color: rosybrown;
+    position: sticky;
+    top: 0px;
 
-.socialmediaimg{
-    height:20px ;
-    width: 22px;
+
 }
+.footer{
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;}
+
+
+    .socialmediaimg{
+        height:20px ;
+        width: 22px;
+        position: relative;
+        left: 1260px;
+    }
+    
+    #contact{
+        position: relative;
+        left: 10px;
+        right: 20px;
+        top: 15px;
+        bottom: 20px;
+        text-decoration: none;
+        color: black;   
+    
+    }
+    
+    #copyright{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #map{
+        display: none;
+
+    }
