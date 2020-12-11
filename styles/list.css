@@ -4,81 +4,99 @@ body{
     font-family:Ubuntu sans-serif ;
 }
 
+.header{
+    display: flex;
+    background-color: rosybrown;
+    position: sticky;
+    top: 0px;
+}
+
 #logo{
     height: 60px;
     width:60px;
+    margin-left: 1%;
     vertical-align: middle;
 }
 
 #log-in{
-    position: relative;
-    left: 1220px;
-    vertical-align: middle;
-    text-decoration: none;
-    color: black;
-
+        position: relative;
+        left: 1220px;
+        padding-top: 20px;
+        margin-right: 2%;
+        vertical-align: middle;
+        text-decoration: none;
+        color: black;  
 }
 
 .listdiv{
     height: 100vh;
     width: 100vw;
+    
+}
 
+.Align{
+    position: relative;
+    display: flex;
+    
+
+    
 }
 
 .list-img-div{
-    background-color: rgb(132,136,139); 
+   background-color:lightgrey; 
     width:40%;
-    
-  
+    display: flex;
+    flex-direction: row;
+   
 }
 
 #list-content{
     text-decoration: none;
     color:black;
 }
+
 .listimg{
     height: 250px;
     width: 250px;
-
 }
 
-.header{
-    background-color: rosybrown;
-    position: sticky;
-    top: 0px;
+#map{
+    display: none;
+ }
 
 
-}
-.footer{
-    background-color: rosybrown;
-    position: sticky;
-    bottom: 0px;}
-
-
-    .socialmediaimg{
+.socialmediaimg{
         height:20px ;
         width: 22px;
         position: relative;
-        left: 1260px;
-    }
+        left: 1200px;
+        top:10px;       
+ }
     
-    #contact{
+#contact{
         position: relative;
         left: 10px;
         right: 20px;
         top: 15px;
         bottom: 20px;
         text-decoration: none;
-        color: black;   
+        color: black;  
     
-    }
+ }
     
-    #copyright{
-        text-align: center;
+#copyright{
+        display: flex;
+        position: relative;
+        left: 450px;
+        top:20px;
         font-size: 10px;
-    }
-
-    #map{
-        display: none;
-
-    }
+ }
+    
+.footer{
+        display: flex;
+        padding-bottom: 30px;
+        background-color: rosybrown;
+        position: sticky;
+        bottom: 0px;
+        
+ }

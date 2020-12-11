@@ -21,17 +21,32 @@
         <div>
             <div id="searchbar">
                 <form id="form">
-                    <input type="text" name="city" id="city-search" placeholder="City"/>
+                    <input type="text" name="city" id="city-search" placeholder="City" autocomplete="off"/>
                 </form>
             </div>
             <div>
-                <a href="list.html">
-                    <img class="indeximg"  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" style="margin-left: 25%;"/>
-                </a>
-                <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"/>
-                <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"/>
-                <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" style="margin-right: 12%;"/>
-                <div style="text-align: center;padding-top:20px;padding-bottom:20px;">
+                <div id="Content-pic">
+                    <div class="image">
+                        <a href="list.html" style="text-decoration: none;color:black" >
+                            <img class="indeximg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"/>
+                            <div class="img-desc">Delhi</div>
+                        </a>
+                    </div>
+                    <div class="image">
+                        <img class="indeximg" id="goa" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"/>
+                        <div class="img-desc">Goa</div>
+                    </div>
+                    <div class="image">
+                        <img class="indeximg" id="hydrabad" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"/>
+                        <div class="img-desc">Hydrabad</div>
+                    </div>
+                    <div class="image">
+                        <img class="indeximg" id="kolkata" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" style="margin-right: 12%;"/>
+                        <div class="img-desc">Kolkata</div>
+                    </div>
+                    
+                </div>
+                <div style="text-align: center;padding:0% 20% 10% 20%;">
                     <a href="index.html" id="view-more">View more >></a>
                 </div>
                 
@@ -42,7 +57,6 @@
         <!--FOOTER DIV-->
         <footer class="footer">
             <a href="contact.html" id="contact">Contact Us</a>
-            <br />
             <a href="https://www.facebook.com">
                 <img class="socialmediaimg" src="assests\images\facebook.png">
             </a>
@@ -52,7 +66,8 @@
             <a href="https://twitter.com">
                 <img class="socialmediaimg" src="assests\images\twitter.png"/>
             </a>
-            <div id="copyright">© 2020 ROOM SEARCH PVT LTD</div>
+            <article id="copyright">© 2020 ROOM SEARCH PVT LTD</article>
+            
         </footer>
 
     </div>

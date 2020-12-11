@@ -3,19 +3,28 @@ body{
     background-color: #e0e0e0;
 }
 
+.header{
+    display: flex;
+    background-color: rosybrown;
+    position: sticky;
+    top: 0px;
+}
+
 #logo{
     height: 60px;
     width:60px;
+    margin-left: 1%;
     vertical-align: middle;
 }
 
 #log-in{
         position: relative;
         left: 1220px;
+        padding-top: 20px;
+        margin-right: 2%;
         vertical-align: middle;
         text-decoration: none;
-        color: black;
-    
+        color: black;  
 }
 
 .indexdiv{
@@ -30,59 +39,89 @@ body{
     text-decoration: none;
     color: black;
 }
-.header{
-    background-color: rosybrown;
-    position: sticky;
-    top: 0px;
 
 
-}
-.footer{
-    background-color: rosybrown;
-    position: sticky;
-    bottom: 0px;
-    
-}
 
 #searchbar{
-
+    display: flex;
+    justify-content: center;
     background-image:url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
     background-size: cover;
     background-position: center;
-    height: 380px; 
-    
-    
+    height: 380px;  
 }
 
 #city-search{
     background-color: #f1f1f1; 
-    border:1px transparent; 
     border-radius:12px 12px ;
     padding:10px;
-    width:25%;
+    width:150%;
     font-size:14px;
 }
 
+#city-search:focus{
+    outline: none;
+}
 
 #form{
     text-align: center;
     position: relative;
-    top: 50%;    
+    top: 50%;       
+}
+
+#city-search{
+    border: none;
+}
+
+#Content-pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 6%;
+    
+}
+
+.image{
+    position: relative;
+    width: 17%;
+    background-size: contain;
 }
 
 .indeximg{
+    display: block;
     height: 150px;
     width: 150px;
-    padding: 1%;
-    position: relative;
-    padding-right: 2%;
     border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
 }
+.img-desc{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    border-radius:25% ;  
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.img-desc:hover{
+    opacity: 1;
+}
+
+
 .socialmediaimg{
     height:20px ;
     width: 22px;
     position: relative;
-    left: 1260px;
+    left: 1200px;
+    top:10px;
+
+    
 }
 
 #contact{
@@ -92,11 +131,23 @@ body{
     top: 15px;
     bottom: 20px;
     text-decoration: none;
-    color: black;   
+    color: black;  
 
 }
 
 #copyright{
-    text-align: center;
+    display: flex;
+    position: relative;
+    left: 450px;
+    top:20px;
     font-size: 10px;
+}
+
+.footer{
+    display: flex;
+    padding-bottom: 30px;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;
+    
 }

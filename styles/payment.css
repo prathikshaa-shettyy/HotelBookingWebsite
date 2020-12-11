@@ -3,45 +3,50 @@ body{
     background-color: #e0e0e0;
     font-family:Ubuntu sans-serif ;
 }
+.header{
+    display: flex;
+    background-color: rosybrown;
+    position: sticky;
+    top: 0px;
+}
 
 #logo{
     height: 60px;
     width:60px;
+    margin-left: 1%;
     vertical-align: middle;
 }
 
 #log-in{
-    position: relative;
-    left: 1220px;
-    vertical-align: middle;
-    text-decoration: none;
-    color: black;
-
+        position: relative;
+        left: 1220px;
+        padding-top: 20px;
+        margin-right: 2%;
+        vertical-align: middle;
+        text-decoration: none;
+        color: black;  
 }
 
 .paymentdiv{
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
-.header{
-    background-color: rosybrown;
-    position: sticky;
-    top: 0px;
-
-
-}
-.footer{
-    background-color: rosybrown;
-    position: sticky;
-    bottom: 0px;}
 
 #hotelcontent{
     background-color:  rgb(132,136,139);
     width:50%;
-    height:20%;
+    height:45%;
     margin:0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.hotel-desc{
+    padding-left: 30px;
+    padding-top: 60px;
 }
 
 #customerinfo{
@@ -50,15 +55,39 @@ body{
 
 #addborder{
     border: 1px solid black;
-    padding: 1% 2%;
+    padding: 3% 2%;
     border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    background-color: rosybrown;
 }
+
+#cus-info{
+    padding-left: 70px;
+}
+
+#amount-info{
+    padding-left: 200px;
+    padding-top: 40px;
+
+}
+
+#pay-now{
+  padding-left: 300px;
+  
+}
+
+#paymentimg{
+    height: 250px;
+    width: 300px;
+}
+
 .socialmediaimg{
     height:20px ;
     width: 22px;
     position: relative;
-    left: 1260px;
-    
+    left: 1200px;
+    top:10px;       
 }
 
 #contact{
@@ -68,16 +97,23 @@ body{
     top: 15px;
     bottom: 20px;
     text-decoration: none;
-    color: black;   
+    color: black;  
 
 }
 
 #copyright{
-    text-align: center;
+    display: flex;
+    position: relative;
+    left: 450px;
+    top:20px;
     font-size: 10px;
 }
 
-#paymentimg{
-    height: 500px;
-    width: 500px;
+.footer{
+    display: flex;
+    padding-bottom: 30px;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;
+    
 }
