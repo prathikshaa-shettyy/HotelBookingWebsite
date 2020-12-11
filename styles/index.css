@@ -19,9 +19,13 @@ body{
 
 #log-in{
         position: relative;
-        left: 1220px;
-        padding-top: 20px;
-        margin-right: 2%;
+        left: 1200px;
+        margin-top: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 4%;
         vertical-align: middle;
         text-decoration: none;
         color: black;  
